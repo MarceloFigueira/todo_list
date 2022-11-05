@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:todolist/utils/dialog_box.dart';
 import 'package:todolist/utils/todo_tile.dart';
 
 class HomePage extends StatefulWidget {
@@ -27,7 +28,7 @@ class _HomePageState extends State<HomePage> {
     showDialog(
         context: context,
         builder: (context) {
-          return const AlertDialog();
+          return const DialogBox();
         });
   }
 
